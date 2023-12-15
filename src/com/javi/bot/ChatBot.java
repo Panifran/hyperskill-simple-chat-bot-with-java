@@ -18,6 +18,14 @@ public class ChatBot {
 		System.out.printf("What a great name you have, %s!", name);
 	}
 
+	/*
+	 * Simple guessing game that will predict the age of a user.
+	 * 
+	 * It's based on a simple math trick. First, take a look at this formula:
+	 * 
+	 * age = (remainder3 * 70 + remainder5 * 21 + remainder7 * 15) % 105
+	 */
+	
 	private void guessAge(Scanner scanner) {
 		System.out.println("Let me guess your age.");
 		System.out.println(
